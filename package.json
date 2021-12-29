@@ -1,0 +1,44 @@
+{
+  "name": "article-validation-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
+  },
+  "keywords": [],
+  "author": "Ahmed Ashref",
+  "license": "ISC",
+  "description": "Evaluate a news article with natural language processing",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@types/jest": "^26.0.20",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.3.1",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^26.5.3",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^7.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "supertest": "6.1.3",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack-dev-server": "^4.7.1",
+    "workbox-webpack-plugin": "^6.4.2"
+  }
+}
